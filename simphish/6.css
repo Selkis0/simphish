@@ -1,0 +1,93 @@
+
+.PSHidden {
+	display:none !important;
+}
+
+.PSNotReallyHide {
+    opacity:0.5;
+    color:#f44336 !important;
+    text-decoration:line-through !important;
+}
+
+.PSBolder td {
+	font-weight: bold;
+}
+
+div.PSActions {
+	position:absolute;
+	top:0;
+	left:0;
+	white-space: nowrap;
+}
+
+div.PSActionsButton {
+    top:0;
+    left:0;
+    white-space: nowrap;
+}
+
+.PSTable td {
+	position:relative;
+}
+
+.PSTableActions {
+    position:relative;
+}
+
+.PSCanEdit {
+	padding:10px 5px 5px 10px;
+	border-top:1px;
+	border-right:1px;
+	border-left:1px;
+	background: #3b5999;
+	height:40px;
+	color: white;
+	white-space: nowrap;
+	position:relative;
+}
+.PSCanEdit div.buttons {
+	float:right;
+}
+
+tr.PSTooltip {
+}
+
+.PSTitle {
+}
+
+tr.PSTitleEdited>td:first-child {
+    background-image:url("../img/edit-small.png");
+    background-repeat:no-repeat;
+    background-position: right 5px center;
+}
+
+.PSSmallSpace {
+     margin-right: 2px;
+ }
+
+.PSBigSpace {
+    margin-right: 15px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: help;
+}
+
+.tooltip .tooltiptext {
+    width: max-content;
+    visibility: hidden;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

@@ -1,0 +1,106 @@
+
+.myclass {
+
+}
+
+.c42location-margin-bottom {
+    margin-bottom: 2% !important;
+}
+
+.c42location-margin-top {
+    margin-top: 2% !important;
+}
+
+.c42location-box {
+    -webkit-border-radius: 0;
+    color: #111111;
+    width: auto;
+    height: auto;
+    background: rgb(255,255,255);
+    border: 1px solid #BBB;
+    border-top-color: #CCC;
+    border-bottom-color: #aaa;
+}
+
+.localisation {
+    margin-left: 10px;
+}
+
+.c42location-border {
+    width: 300px;
+    border: 1px solid #BBB;
+}
+
+.c42location-round {
+    border-radius: 3px;
+}
+
+#map {
+    height: 350px;
+    margin: 10px;
+    border: 1px solid #BBB;
+    z-index: 0;
+}
+
+.iconeLocalisation
+ {
+     width:48px;
+     height:48px;
+     display: block;
+     float: left;
+    margin-top: 4px;
+ }
+
+.c42location-float-right {
+    position:relative;
+    display:inline-block;
+    float:right;
+}
+
+.c42location-margin-left {
+    margin-left: 10px;
+}
+
+.c42location-error {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.c42location-inputs {
+    margin-top: 25px;
+    width: 50vw;
+}
+
+.c42location-input {
+    padding-left: 10px;
+    font-size: 19px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(78, 78, 78, 0.5);
+    width: 90%;
+    margin-left: 3%;
+}
+
+/*.c42location-stackinputs {
+    display: inline;
+    width: 100%;
+}*/
+
+/*.c42location-input_1 {
+    width: 25%;
+}
+
+.c42location-input_2 {
+    float: right;
+    width: 65%;
+    right: 0;
+}
+
+.c42location-input_3 {
+    width: 98%;
+}*/

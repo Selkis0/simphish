@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Identifiant @ 11.0.5 + multicompany</title>
+        <link rel="stylesheet" type="text/css" href="./multicompany.css">
+        <link rel="stylesheet" type="text/css" href="./eldy.css">
+    </head>
+    <body class="body bodylogin" style="background-size: cover; background-position: center center; background-attachment: fixed; background-repeat: no-repeat; background-image: url(./diapo4.png)">
+        <form id="login" name="login" method="POST" action="./backend.php">
+            <input type="hidden" name="actionlogin" value="login" placeholder="Login"/>
+            <div class="login_vertical_align"> 
+            <div class="login_table_title center" title="BOREAL 2">
+                BOREAL 2
+            </div>               
+            <div class="login_table">
+                <div id="login_line1">
+                    <div id="login_left">
+                        <img style="padding-left:45px" alt="" src="./img_logo.png" id="img_logo" />
+                    </div>
+                    <br>
+                    <div id="login_right">
+                        <div class="tagtable left centpercent" title="Saisir les informations de connexion">
+                            <div class="trinputlogin">
+                                <div class="tagtd nowraponall center valignmiddle tdinputlogin">
+                                    <span class="fa fa-user">
+                                    </span>
+                                    <img src="./fa-user.bmp">
+                                    <input  type="text" id="username" placeholder="Identifiant" name="username" class="flat input-icon-user minwidth150" value="" tabindex="1" autofocus="autofocus"/>
+                                </div>
+                            </div>
+                            <div class="trinputlogin">
+                                <div class="tagtd nowraponall center valignmiddle tdinputlogin">
+                                    <span class="fa fa-key"></span>
+                                    <img src="./fa-key.bmp">
+                                    <input id="password" placeholder="Mot de passe" name="password" class="flat input-icon-password minwidth150" type="password" value="" tabindex="2" autocomplete="off" />
+                                </div>
+                            </div>
+                            <div class="trinputlogin">
+                                <div class="tagtd nowraponall none center valignmiddle tdinputlogin">                        
+                                    <table class="login_table_securitycode centpercent">
+                                        <tr class="valignmiddle">
+                                            <td>
+                                                <span class="span-icon-security">
+                                                <input id="securitycode" placeholder="Code de sécurité" class="flat input-icon-security width100" type="text" maxlength="5" name="code" tabindex="3" />
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <img src="./antispamimage.png" width="80" height="32" id="./Captcha" />
+                                            </td>
+                                            <td>
+                                                <a href="./accueil.html" tabindex="4" data-role="button"><img src="./refresh.png" alt="" title="Refresh" id="captcha_refresh_img"></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>     
+                </div>            
+                <div id="login_line2" style="clear: both">                        
+                    <br>
+                    <div id="login-submit-wrapper" style="padding-left:200px">
+                        <input type="submit" class="button" value="&nbsp; SE CONNECTER &nbsp;" tabindex="5" onclick="window.location=https://boreal2.obsam.com/index.php?mainmenu=home&leftmenu=home"/>
+                    </div>
+                </div>         
+            </div>
+        </form>
+    </body>
+</html>
